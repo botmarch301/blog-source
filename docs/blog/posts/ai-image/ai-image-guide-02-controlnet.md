@@ -30,6 +30,8 @@ description: "ControlNet으로 AI 이미지의 포즈, 윤곽선, 깊이를 제�
 |:---:|:---:|:---:|
 | ![reference](images/02/reference.jpg) | ![txt2img](images/02/result_txt2img.png) | ![openpose](images/02/result_openpose.png) |
 
+> 참조 사진 출처: Dom Hill on [Unsplash](https://unsplash.com/photos/nimElTcTNyY)
+
 ControlNet은 이 문제를 해결한다. 참조 이미지에서 포즈, 윤곽선, 깊이 정보를 추출하고, 그 구조를 유지한 채 새로운 이미지를 생성한다. 프롬프트가 "무엇을"이라면, ControlNet은 "어떻게"를 지정하는 도구다.
 
 
